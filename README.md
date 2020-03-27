@@ -8,3 +8,5 @@ Tableau -> Help -> Settings and Performance -> Manage External Service Connectio
 Select Rserve in the dropdown.
 
 Server Name: localhost, port: 6311
+
+(Refer the file in the project on how to start Rserve in R)
