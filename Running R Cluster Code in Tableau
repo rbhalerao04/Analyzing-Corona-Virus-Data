@@ -1,0 +1,4 @@
+// Create a calculated field in Tableau and then I have written the R code for creating clusters which will further help for visualizing
+
+SCRIPT_INT('clusterdata <- kmeans(x = data.frame(.arg1,.arg2),3,iter.max=10)
+clusterdata$cluster',SUM([Sales]),SUM([Profit]))
